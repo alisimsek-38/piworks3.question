@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int sayi1 = 0;
+		int sayi2 = 0;
+		sayi1 = Convert.ToInt16(Console.ReadLine());
+		sayi2 = Convert.ToInt16(Console.ReadLine());
+		sayi1 = sayi1 + sayi2;
+		sayi2 = sayi1 - sayi2;
+		sayi1 = sayi1 - sayi2;
+		Console.WriteLine("Sayı 1={0}", sayi1);
+		Console.WriteLine("Sayı 2={0}", sayi2);
+	}
+}
